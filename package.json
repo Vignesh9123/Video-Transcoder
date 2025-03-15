@@ -2,7 +2,6 @@
   "name": "video-transcoding",
   "version": "1.0.0",
   "main": "index.ts",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc-watch --onSuccess \"node dist/index.js\""
@@ -11,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-ecs": "^3.766.0",
     "@aws-sdk/client-s3": "^3.758.0",
     "@aws-sdk/client-sqs": "^3.758.0",
     "dotenv": "^16.4.7",
