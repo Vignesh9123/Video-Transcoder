@@ -5,6 +5,8 @@
 ## Design
 ![Video Transcoder](./Video-Transcoder-Design.png)
 
+## End to End workflow
+![End to End](./End-to-End.png)
 
 ## Key Points
 
